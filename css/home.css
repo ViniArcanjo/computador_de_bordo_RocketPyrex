@@ -1,27 +1,3 @@
-/*=== Layout ===*/
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-body::before {    
-  content: "";
-  background-image: url('/assets/images/background.jpg');
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.4;
-  z-index: -10;
-}
-
-.container-fluid {
-  padding: 1rem 1.5rem !important;
-}
-
 /*=== Header ===*/
 header {
   margin-bottom: 2.5rem;
@@ -54,6 +30,10 @@ main ul li {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+
+main ul li a{
+  color: var(--text-color);
 }
 
 main svg {

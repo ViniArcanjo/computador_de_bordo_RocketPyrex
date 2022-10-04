@@ -12,18 +12,43 @@ ul, li, a {
   padding: 0;
 }
 
-/*=== design ===*/
+/*=== Layout ===*/
 :root {
   --text-color: #FFFFF0;
   --bg-color: #000012;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: var(--bg-color);
   font: 300 1.5rem 'Roboto', sans-serif;
   color: var(--text-color);
 }
 
+body::before {    
+  content: "";
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+  z-index: -10;
+}
+
+.container-fluid {
+  padding: 1rem 1.5rem !important;
+}
+
+/*=== Design ===*/
 h1 {
   font: 900 2.5rem 'Roboto', sans-serif;
+}
+
+h2 {
+  font: 400 2rem 'Roboto', sans-serif;
 }
