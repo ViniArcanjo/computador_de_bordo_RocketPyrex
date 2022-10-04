@@ -6,3 +6,4 @@ Esse é um projeto do Challenge NEXT - BRQ, realizado com fins educativos, pelos
 
 - 💻 A resolução do nosso Computador de Bordo foi definida para <bold>675x1200 pixels</bold>;
 - Toda a aplicação foi desenvolvida em HTML, CSS, Bootstrap e Javascript;
+- Por fazerem parte do requisito do desafio, apenas os apps "Segurança", "Garagem", "Temperatura" e "Iluminação" têm uma página única desenvolvida.
