@@ -19,10 +19,6 @@ ul, li, a {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 2rem;
   background-color: var(--bg-color);
   font: 300 1.5rem 'Roboto', sans-serif;
   color: var(--text-color);
