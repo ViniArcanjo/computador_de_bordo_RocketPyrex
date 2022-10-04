@@ -1,0 +1,21 @@
+/*=== Header ===*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav #menu {
+  color: var(--text-color);
+  font: 700 1.5rem 'Roboto', sans-serif;
+}
+
+header nav a {
+  color: var(--text-color);
+  font: 300 1.5rem 'Roboto', sans-serif;
+}
