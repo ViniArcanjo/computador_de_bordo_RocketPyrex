@@ -1,4 +1,4 @@
-# Olá, bem vind@ à interface de computador de bordo da equipe RocketPyrex!
+# 👋 Olá, bem vind@ à interface de computador de bordo da equipe RocketPyrex!
 
 Esse é um projeto do Challenge NEXT - BRQ, realizado com fins educativos, pelos alunos da FIAP - Faculdade de Informática e Administração Paulista...
 
