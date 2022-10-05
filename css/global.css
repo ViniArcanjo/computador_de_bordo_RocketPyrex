@@ -1,11 +1,14 @@
 /*=== reset ===*/
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul, li, a {
+ul,
+li,
+a {
   text-decoration: none;
   list-style: none;
   margin: 0;
@@ -14,8 +17,8 @@ ul, li, a {
 
 /*=== Layout ===*/
 :root {
-  --text-color: #FFFFF0;
-  --bg-color: #000012;
+  --text-color: #fffff0;
+  --bg-color: #131313;
 }
 
 body {
@@ -23,13 +26,13 @@ body {
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--bg-color);
-  font: 300 1.5rem 'Roboto', sans-serif;
+  font: 300 1.5rem "Roboto", sans-serif;
   color: var(--text-color);
 }
 
-body::before {    
+body::before {
   content: "";
-  background-image: url('/assets/images/background.jpg');
+  background-image: url("/assets/images/background.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -37,7 +40,8 @@ body::before {
   bottom: 0px;
   left: 0px;
   opacity: 0.4;
-  z-index: -10;
+  z-index: -1;
+  opacity: 40%;
 }
 
 .container-fluid {
@@ -46,11 +50,11 @@ body::before {
 
 /*=== Design ===*/
 h1 {
-  font: 900 2.5rem 'Roboto', sans-serif;
+  font: 900 2.5rem "Roboto", sans-serif;
 }
 
 h2 {
-  font: 400 2rem 'Roboto', sans-serif;
+  font: 400 2rem "Roboto", sans-serif;
 }
 
 header nav {
