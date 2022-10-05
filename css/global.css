@@ -19,6 +19,8 @@ a {
 :root {
   --text-color: #fffff0;
   --bg-color: #131313;
+  --hue: 0;
+  --color-alpha: hsl(var(--hue), 100%, 100%);
 }
 
 body {
@@ -41,7 +43,7 @@ body::before {
   left: 0px;
   opacity: 0.4;
   z-index: -1;
-  opacity: 40%;
+  opacity: 15%;
 }
 
 .container-fluid {

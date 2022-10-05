@@ -1,3 +1,9 @@
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-alpha);
+}
+
 main {
   min-height: 36.6875rem;
 }
@@ -8,7 +14,6 @@ main svg {
 }
 
 main svg.on {
-  fill: #FFC61F;
   font-size: 5rem;
   transition: 0.5s;
 }

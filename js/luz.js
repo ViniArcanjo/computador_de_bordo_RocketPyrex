@@ -21,19 +21,22 @@ function colorPicker() {
   const output = document.querySelector('.js-range-output')
   const root = document.documentElement
 
+  rangeInput.addEventListener('input', function () {
+    setHue()
+  })
+
   function setHue() {
+    const light = document.getElementById('light')
     output.value = rangeInput.value + '°'
+    light.style.setProperty('fill', `hsl(${rangeInput.value}, 100%, 100%)`)
     root.style.setProperty('--hue', rangeInput.value)
+    console.log(rangeInput.value)
   }
 
   function setDefaultState() {
     rangeInput.focus()
     setHue()
   }
-
-  rangeInput.addEventListener('input', function () {
-    setHue()
-  })
 
   document.addEventListener('DOMContentLoaded', function () {
     setDefaultState()

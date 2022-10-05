@@ -4,8 +4,6 @@ function gateControl() {
   const imgs = document.querySelectorAll('img')
   const txts = document.getElementsByClassName('gate-text')
 
-  console.log(txts)
-
   btns[2].addEventListener('click', function () {
     imgs[1].classList.remove('hide')
     txts[1].classList.remove('hide')
