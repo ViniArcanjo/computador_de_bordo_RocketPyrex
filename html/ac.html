@@ -31,7 +31,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark mb-5">
+      <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -81,14 +81,39 @@
       </nav>
     </header>
 
-    <main class="d-flex flex-column">
-      <div class="container p-5 text-center">
-        <p id="temp" class="temp d-flex align-items-top justify-content-center">
-          17 &#8451;
-        </p>
-        <div class="btn-toolbar d-flex justify-content-center">
-          <button type="button" class="btn btn-light">+</button>
-          <button type="button" class="btn btn-light">-</button>
+    <main class="d-flex flex-column justify-content-center align-items-center">
+      <div
+        class="container p-5 text-center row d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 class="col mb-5">Controle do Ar-Condicionado</h2>
+        <p id="temp" class="col-12">17 &#8451;</p>
+        <div class="btn-toolbar d-flex justify-content-center col-12">
+          <button>-</button>
+          <button>+</button>
+        </div>
+        <div class="mt-4 row">
+          <div
+            id="mode"
+            class="col-4 d-flex flex-column align-items-center justify-content-center"
+          >
+            <p id="mode-txt">AUTO</p>
+            <button>MODO</button>
+          </div>
+          <div
+            id="on-off"
+            class="col-4 d-flex flex-column align-items-center justify-content-center"
+          >
+            <button>LIGAR</button>
+            <button class="hide">DESLIGAR</button>
+          </div>
+          <div
+            id="swing"
+            class="col-4 d-flex flex-column align-items-center justify-content-center"
+          >
+            <p id="swing-text-on">OSCILANDO</p>
+            <p id="swing-text-off" class="hide">PARADO</p>
+            <button>OSCILAR</button>
+          </div>
         </div>
       </div>
     </main>
