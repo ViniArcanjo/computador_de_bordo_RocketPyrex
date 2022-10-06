@@ -1,5 +1,5 @@
 main .images img {
-  width: 10rem;
+  width: 5rem;
   height: auto;
 }
 
@@ -16,6 +16,7 @@ main .images .hide {
   min-width: 10rem;
 }
 
-.cam-imgs {
-  
+.cam-imgs img {
+  width: 20%;
+  height: auto;
 }

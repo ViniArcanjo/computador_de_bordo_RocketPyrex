@@ -26,11 +26,8 @@ function colorPicker() {
   })
 
   function setHue() {
-    const light = document.getElementById('light')
     output.value = rangeInput.value + '°'
-    light.style.setProperty('fill', `hsl(${rangeInput.value}, 100%, 100%)`)
     root.style.setProperty('--hue', rangeInput.value)
-    console.log(rangeInput.value)
   }
 
   function setDefaultState() {

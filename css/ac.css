@@ -1,0 +1,17 @@
+.temp span {
+  font: 500 4rem 'Roboto', sans-serif;
+}
+
+.temp span {
+  font: 500 4rem 'Roboto', sans-serif;
+}
+
+.btn-toolbar button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+  min-width: 8rem;
+  max-height: 1.4rem;
+  font: 900 1.5rem 'Roboto', sans-serif;
+}
