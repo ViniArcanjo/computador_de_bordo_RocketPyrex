@@ -38,13 +38,14 @@ function acHandler() {
 
   function controlMode() {
     const modo = document.getElementById('mode-txt')
-    modeList = ['AUTO', 'COLL', 'DRY', 'HEAT', 'FAN']
+    modeList = ['AUTO', 'COOL', 'DRY', 'HEAT', 'FAN']
     n = 0
 
     btns[4].addEventListener('click', () => {
       if (n < 4) {
         modo.innerHTML = `${modeList[(n += 1)]}`
-      } else {
+      } else if (n >= 4) {
+        modo.innerHTML = `${modeList[0]}`
         n = 0
       }
     })
